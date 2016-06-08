@@ -37,14 +37,12 @@ namespace Ntuple {
   
   enum JetDetails {
     JetSubstructure = 1,
-    JetPrunedSubjetsTruth = 2,
-    JetSoftdropSubjets = 4,
-    JetSoftdropSubjetsTruth = 8,
-    JetPrunedSubjets = 16,
-    JetAnalysis = 32,
-    JetTruth = 64,
-    JetBasic = 128,
-    JetAll = 255,
+    JetSoftdropSubjets = 2,
+    JetSoftdropSubjetsTruth = 4,
+    JetAnalysis = 8,
+    JetTruth = 16,
+    JetBasic = 32,
+    JetAll = 63,
 
   };
   
@@ -102,32 +100,19 @@ namespace Ntuple {
      kcemf=25, 
      kcsv=1, 
      kcharge=2, 
-     ksubjet_pruned_N=43, 
-     ksubjet_pruned_pt=44, 
-     ksubjet_pruned_eta=45, 
-     ksubjet_pruned_phi=46, 
-     ksubjet_pruned_e=47, 
-     ksubjet_pruned_m=48, 
-     ksubjet_pruned_csv=49, 
-     ksubjet_pruned_charge=50, 
-     ksubjet_pruned_partonFlavour=51, 
-     ksubjet_pruned_hadronFlavour=52, 
-     ksubjet_pruned_genParton_pdgID=53, 
-     ksubjet_pruned_nbHadrons=54, 
-     ksubjet_pruned_ncHadrons=55, 
-     ksubjet_softdrop_N=56, 
-     ksubjet_softdrop_pt=57, 
-     ksubjet_softdrop_eta=58, 
-     ksubjet_softdrop_phi=59, 
-     ksubjet_softdrop_e=60, 
-     ksubjet_softdrop_m=61, 
-     ksubjet_softdrop_csv=62, 
-     ksubjet_softdrop_charge=63, 
-     ksubjet_softdrop_partonFlavour=64, 
-     ksubjet_softdrop_hadronFlavour=65, 
-     ksubjet_softdrop_genParton_pdgID=66, 
-     ksubjet_softdrop_nbHadrons=67, 
-     ksubjet_softdrop_ncHadrons=68, 
+     ksubjet_softdrop_N=43, 
+     ksubjet_softdrop_pt=44, 
+     ksubjet_softdrop_eta=45, 
+     ksubjet_softdrop_phi=46, 
+     ksubjet_softdrop_e=47, 
+     ksubjet_softdrop_m=48, 
+     ksubjet_softdrop_csv=49, 
+     ksubjet_softdrop_charge=50, 
+     ksubjet_softdrop_partonFlavour=51, 
+     ksubjet_softdrop_hadronFlavour=52, 
+     ksubjet_softdrop_genParton_pdgID=53, 
+     ksubjet_softdrop_nbHadrons=54, 
+     ksubjet_softdrop_ncHadrons=55, 
      ktau1=26, 
      ktau2=27, 
      ktau3=28, 
@@ -185,19 +170,6 @@ namespace Ntuple {
     std::vector< floatingnumber >  *cemf;
     std::vector< floatingnumber >  *csv;
     std::vector< int >  *charge;
-    std::vector< int >  *subjet_pruned_N;
-    std::vector< std::vector<floatingnumber> >  *subjet_pruned_pt;
-    std::vector< std::vector<floatingnumber> >  *subjet_pruned_eta;
-    std::vector< std::vector<floatingnumber> >  *subjet_pruned_phi;
-    std::vector< std::vector<floatingnumber> >  *subjet_pruned_e;
-    std::vector< std::vector<floatingnumber> >  *subjet_pruned_m;
-    std::vector< std::vector<floatingnumber> >  *subjet_pruned_csv;
-    std::vector< std::vector<int> >  *subjet_pruned_charge;
-    std::vector< std::vector<int> >  *subjet_pruned_partonFlavour;
-    std::vector< std::vector<int> >  *subjet_pruned_hadronFlavour;
-    std::vector< std::vector<int> >  *subjet_pruned_genParton_pdgID;
-    std::vector< std::vector<int> >  *subjet_pruned_nbHadrons;
-    std::vector< std::vector<int> >  *subjet_pruned_ncHadrons;
     std::vector< int >  *subjet_softdrop_N;
     std::vector< std::vector<floatingnumber> >  *subjet_softdrop_pt;
     std::vector< std::vector<floatingnumber> >  *subjet_softdrop_eta;

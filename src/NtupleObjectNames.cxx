@@ -146,21 +146,21 @@ namespace Ntuple {
     m_names["softdrop_jecDown"] = "softdrop_jecDown";
     m_names["Hbbtag"] = "Hbbtag";
 
-    // pruned subjets
-    m_names["subjet_pruned_N"] = "subjet_pruned_N";
-    m_names["subjet_pruned_e"] = "subjet_pruned_e";
-    m_names["subjet_pruned_pt"] = "subjet_pruned_pt";
-    m_names["subjet_pruned_m"] = "subjet_pruned_mass";
-    m_names["subjet_pruned_eta"] = "subjet_pruned_eta";
-    m_names["subjet_pruned_phi"] = "subjet_pruned_phi";
-    m_names["subjet_pruned_charge"] = "subjet_pruned_charge";
-    m_names["subjet_pruned_csv"] = "subjet_pruned_csv";
+    // // pruned subjets
+    // m_names["subjet_pruned_N"] = "subjet_pruned_N";
+    // m_names["subjet_pruned_e"] = "subjet_pruned_e";
+    // m_names["subjet_pruned_pt"] = "subjet_pruned_pt";
+    // m_names["subjet_pruned_m"] = "subjet_pruned_mass";
+    // m_names["subjet_pruned_eta"] = "subjet_pruned_eta";
+    // m_names["subjet_pruned_phi"] = "subjet_pruned_phi";
+    // m_names["subjet_pruned_charge"] = "subjet_pruned_charge";
+    // m_names["subjet_pruned_csv"] = "subjet_pruned_csv";
     // pruned subjets flavour truth
-    m_names["subjet_pruned_partonFlavour"] = "subjet_pruned_partonFlavour";
-    m_names["subjet_pruned_hadronFlavour"] = "subjet_pruned_hadronFlavour";
-    m_names["subjet_pruned_nbHadrons"] = "subjet_pruned_nbHadrons";
-    m_names["subjet_pruned_ncHadrons"] = "subjet_pruned_ncHadrons";
-    m_names["subjet_pruned_genParton_pdgID"] = "subjet_pruned_genParton_pdgID";
+    // m_names["subjet_pruned_partonFlavour"] = "subjet_pruned_partonFlavour";
+    // m_names["subjet_pruned_hadronFlavour"] = "subjet_pruned_hadronFlavour";
+    // m_names["subjet_pruned_nbHadrons"] = "subjet_pruned_nbHadrons";
+    // m_names["subjet_pruned_ncHadrons"] = "subjet_pruned_ncHadrons";
+    // m_names["subjet_pruned_genParton_pdgID"] = "subjet_pruned_genParton_pdgID";
     
     // softdrop subjets
     m_names["subjet_softdrop_N"] = "subjet_softdrop_N";
@@ -234,42 +234,88 @@ namespace Ntuple {
 
     //taus
     m_names["TauType"] = "TauType";
-    m_names["decayModeFindingNewDMs"] = "decayModeFindingNewDMs" ;
-    m_names["decayModeFinding"] = "decayModeFinding" ;
-    m_names["byLooseCombinedIsolationDeltaBetaCorr3Hits"] = "byLooseCombinedIsolationDeltaBetaCorr3Hits" ;
-    m_names["byMediumCombinedIsolationDeltaBetaCorr3Hits"] = "byMediumCombinedIsolationDeltaBetaCorr3Hits" ;
-    m_names["byTightCombinedIsolationDeltaBetaCorr3Hits"] = "byTightCombinedIsolationDeltaBetaCorr3Hits" ;
-    m_names["byCombinedIsolationDeltaBetaCorrRaw3Hits"] = "byCombinedIsolationDeltaBetaCorrRaw3Hits" ;
-    m_names["chargedIsoPtSum"] = "chargedIsoPtSum" ;
-    m_names["neutralIsoPtSum"] = "neutralIsoPtSum" ;
-    m_names["puCorrPtSum"] = "puCorrPtSum" ;
-    m_names["byIsolationMVA3oldDMwLTraw"] = "byIsolationMVA3oldDMwLTraw" ;
-    m_names["byVLooseIsolationMVA3oldDMwLT"] = "byVLooseIsolationMVA3oldDMwLT" ;
-    m_names["byLooseIsolationMVA3oldDMwLT"] = "byLooseIsolationMVA3oldDMwLT" ;
-    m_names["byMediumIsolationMVA3oldDMwLT"] = "byMediumIsolationMVA3oldDMwLT" ;
-    m_names["byTightIsolationMVA3oldDMwLT"] = "byTightIsolationMVA3oldDMwLT" ;
-    m_names["byVTightIsolationMVA3oldDMwLT"] = "byVTightIsolationMVA3oldDMwLT" ;
-    m_names["byIsolationMVA3newDMwLTraw"] = "byIsolationMVA3newDMwLTraw" ;
-    m_names["byVLooseIsolationMVA3newDMwLT"] = "byVLooseIsolationMVA3newDMwLT" ;
-    m_names["byLooseIsolationMVA3newDMwLT"] = "byLooseIsolationMVA3newDMwLT" ;
-    m_names["byMediumIsolationMVA3newDMwLT"] = "byMediumIsolationMVA3newDMwLT" ;
-    m_names["byTightIsolationMVA3newDMwLT"] = "byTightIsolationMVA3newDMwLT" ;
-    m_names["byVTightIsolationMVA3newDMwLT"] = "byVTightIsolationMVA3newDMwLT" ;
-    m_names["againstElectronMVA5raw"] = "againstElectronMVA5raw" ;
-    m_names["againstElectronMVA5category"] = "againstElectronMVA5category" ;
-    m_names["againstElectronVLooseMVA5"] = "againstElectronVLooseMVA5" ;
-    m_names["againstElectronLooseMVA5"] = "againstElectronLooseMVA5" ;
-    m_names["againstElectronMediumMVA5"] = "againstElectronMediumMVA5" ;
-    m_names["againstElectronTightMVA5"] = "againstElectronTightMVA5" ;
-    m_names["againstElectronVTightMVA5"] = "againstElectronVTightMVA5" ;
-    m_names["againstMuonLoose3"] = "againstMuonLoose3" ;
-    m_names["againstMuonTight3"] = "againstMuonTight3" ;
-    m_names["byPileupWeightedIsolationRaw3Hits"] = "byPileupWeightedIsolationRaw3Hits" ;
-    m_names["byLoosePileupWeightedIsolation3Hits"] = "byLoosePileupWeightedIsolation3Hits" ;
-    m_names["byMediumPileupWeightedIsolation3Hits"] = "byMediumPileupWeightedIsolation3Hits" ;
-    m_names["byTightPileupWeightedIsolation3Hits"] = "byTightPileupWeightedIsolation3Hits" ;
-    m_names["byPhotonPtSumOutsideSignalCone"] = "byPhotonPtSumOutsideSignalCone" ;
-    m_names["footprintCorrection"] = "footprintCorrection" ;
+
+    m_names["decayModeFindingNewDMs"] = "decayModeFindingNewDMs";
+    m_names["decayModeFinding"] = "decayModeFinding"; 
+    m_names["byLooseCombinedIsolationDeltaBetaCorr3Hits"] = "byLooseCombinedIsolationDeltaBetaCorr3Hits"; 
+    m_names["byMediumCombinedIsolationDeltaBetaCorr3Hits"] = "byMediumCombinedIsolationDeltaBetaCorr3Hits";
+    m_names["byTightCombinedIsolationDeltaBetaCorr3Hits"] = "byTightCombinedIsolationDeltaBetaCorr3Hits";
+    m_names["byCombinedIsolationDeltaBetaCorrRaw3Hits"] = "byCombinedIsolationDeltaBetaCorrRaw3Hits";
+    m_names["chargedIsoPtSum"] = "chargedIsoPtSum";
+    m_names["neutralIsoPtSum"] = "neutralIsoPtSum"; 
+    m_names["puCorrPtSum"] = "puCorrPtSum";
+    m_names["chargedIsoPtSumdR03"] = "chargedIsoPtSumdR03";
+    m_names["footprintCorrectiondR03"] = "footprintCorrectiondR03"; 
+    m_names["neutralIsoPtSumdR03"] = "neutralIsoPtSumdR03";
+    m_names["neutralIsoPtSumWeight"] = "neutralIsoPtSumWeight";
+    m_names["neutralIsoPtSumWeightdR03"] = "neutralIsoPtSumWeightdR03"; 
+    m_names["photonPtSumOutsideSignalConedR03"] = "photonPtSumOutsideSignalConedR03";
+
+    m_names["byIsolationMVArun2v1DBdR03oldDMwLTraw"] = "byIsolationMVArun2v1DBdR03oldDMwLTraw";
+    m_names["byIsolationMVArun2v1DBnewDMwLTraw"] = "byIsolationMVArun2v1DBnewDMwLTraw"; 
+    m_names["byIsolationMVArun2v1DBoldDMwLTraw"] = "byIsolationMVArun2v1DBoldDMwLTraw";
+    m_names["byIsolationMVArun2v1PWdR03oldDMwLTraw"] = "byIsolationMVArun2v1PWdR03oldDMwLTraw"; 
+    m_names["byIsolationMVArun2v1PWnewDMwLTraw"] = "byIsolationMVArun2v1PWnewDMwLTraw"; 
+    m_names["byIsolationMVArun2v1PWoldDMwLTraw"] = "byIsolationMVArun2v1PWoldDMwLTraw";
+    m_names["byLooseIsolationMVArun2v1DBdR03oldDMwLT"] = "byLooseIsolationMVArun2v1DBdR03oldDMwLT"; 
+    m_names["byLooseIsolationMVArun2v1DBnewDMwLT"] = "byLooseIsolationMVArun2v1DBnewDMwLT"; 
+    m_names["byLooseIsolationMVArun2v1DBoldDMwLT"] = "byLooseIsolationMVArun2v1DBoldDMwLT";
+    m_names["byLooseIsolationMVArun2v1PWdR03oldDMwLT"] = "byLooseIsolationMVArun2v1PWdR03oldDMwLT"; 
+    m_names["byLooseIsolationMVArun2v1PWnewDMwLT"] = "byLooseIsolationMVArun2v1PWnewDMwLT";
+    m_names["byLooseIsolationMVArun2v1PWoldDMwLT"] = "byLooseIsolationMVArun2v1PWoldDMwLT"; 
+
+    m_names["byMediumIsolationMVArun2v1DBdR03oldDMwLT"] = "byMediumIsolationMVArun2v1DBdR03oldDMwLT";
+    m_names["byMediumIsolationMVArun2v1DBnewDMwLT"] = "byMediumIsolationMVArun2v1DBnewDMwLT"; 
+    m_names["byMediumIsolationMVArun2v1DBoldDMwLT"] = "byMediumIsolationMVArun2v1DBoldDMwLT"; 
+    m_names["byMediumIsolationMVArun2v1PWdR03oldDMwLT"] = "byMediumIsolationMVArun2v1PWdR03oldDMwLT";
+    m_names["byMediumIsolationMVArun2v1PWnewDMwLT"] = "byMediumIsolationMVArun2v1PWnewDMwLT"; 
+    m_names["byMediumIsolationMVArun2v1PWoldDMwLT"] = "byMediumIsolationMVArun2v1PWoldDMwLT";
+ 
+    m_names["byTightIsolationMVArun2v1DBdR03oldDMwLT"] = "byTightIsolationMVArun2v1DBdR03oldDMwLT";
+    m_names["byTightIsolationMVArun2v1DBnewDMwLT"] = "byTightIsolationMVArun2v1DBnewDMwLT"; 
+    m_names["byTightIsolationMVArun2v1DBoldDMwLT"] = "byTightIsolationMVArun2v1DBoldDMwLT"; 
+    m_names["byTightIsolationMVArun2v1PWdR03oldDMwLT"] = "byTightIsolationMVArun2v1PWdR03oldDMwLT";
+    m_names["byTightIsolationMVArun2v1PWnewDMwLT"] = "byTightIsolationMVArun2v1PWnewDMwLT"; 
+    m_names["byTightIsolationMVArun2v1PWoldDMwLT"] = "byTightIsolationMVArun2v1PWoldDMwLT";
+    m_names["byVLooseIsolationMVArun2v1DBdR03oldDMwLT"] = "byVLooseIsolationMVArun2v1DBdR03oldDMwLT";
+
+    m_names["byVLooseIsolationMVArun2v1DBnewDMwLT"] = "byVLooseIsolationMVArun2v1DBnewDMwLT";
+    m_names["byVLooseIsolationMVArun2v1DBoldDMwLT"] = "byVLooseIsolationMVArun2v1DBoldDMwLT";
+    m_names["byVLooseIsolationMVArun2v1PWdR03oldDMwLT"] = "byVLooseIsolationMVArun2v1PWdR03oldDMwLT";
+    m_names["byVLooseIsolationMVArun2v1PWnewDMwLT"] = "byVLooseIsolationMVArun2v1PWnewDMwLT";
+    m_names["byVLooseIsolationMVArun2v1PWoldDMwLT"] = "byVLooseIsolationMVArun2v1PWoldDMwLT"; 
+    m_names["byVTightIsolationMVArun2v1DBdR03oldDMwLT"] = "byVTightIsolationMVArun2v1DBdR03oldDMwLT";
+    m_names["byVTightIsolationMVArun2v1DBnewDMwLT"] = "byVTightIsolationMVArun2v1DBnewDMwLT";
+    m_names["byVTightIsolationMVArun2v1DBoldDMwLT"] = "byVTightIsolationMVArun2v1DBoldDMwLT";
+
+    m_names["byVTightIsolationMVArun2v1PWdR03oldDMwLT"] = "byVTightIsolationMVArun2v1PWdR03oldDMwLT";
+    m_names["byVTightIsolationMVArun2v1PWnewDMwLT"] = "byVTightIsolationMVArun2v1PWnewDMwLT";
+    m_names["byVTightIsolationMVArun2v1PWoldDMwLT"] = "byVTightIsolationMVArun2v1PWoldDMwLT";
+    m_names["byVVTightIsolationMVArun2v1DBdR03oldDMwLT"] = "byVVTightIsolationMVArun2v1DBdR03oldDMwLT";
+    m_names["byVVTightIsolationMVArun2v1DBnewDMwLT"] = "byVVTightIsolationMVArun2v1DBnewDMwLT";
+    m_names["byVVTightIsolationMVArun2v1DBoldDMwLT"] = "byVVTightIsolationMVArun2v1DBoldDMwLT";
+    m_names["byVVTightIsolationMVArun2v1PWdR03oldDMwLT"] = "byVVTightIsolationMVArun2v1PWdR03oldDMwLT";
+    m_names["byVVTightIsolationMVArun2v1PWnewDMwLT"] = "byVVTightIsolationMVArun2v1PWnewDMwLT";
+
+    m_names["byVVTightIsolationMVArun2v1PWoldDMwLT"] = "byVVTightIsolationMVArun2v1PWoldDMwLT";
+
+
+    m_names["againstElectronMVA6raw"] = "againstElectronMVA6raw";
+    m_names["againstElectronMVA6category"] = "againstElectronMVA6category";
+    m_names["againstElectronVLooseMVA6"] = "againstElectronVLooseMVA6";
+    m_names["againstElectronLooseMVA6"] = "againstElectronLooseMVA6";
+    m_names["againstElectronMediumMVA6"] = "againstElectronMediumMVA6";
+    m_names["againstElectronTightMVA6"] = "againstElectronTightMVA6";
+    m_names["againstElectronVTightMVA6"] = "againstElectronVTightMVA6";
+      
+
+    m_names["againstMuonLoose3"] = "againstMuonLoose3";
+    m_names["againstMuonTight3"] = "againstMuonTight3";
+      
+ 
+    m_names["byPhotonPtSumOutsideSignalCone"] = "byPhotonPtSumOutsideSignalCone";
+    m_names["footprintCorrection"] = "footprintCorrection";
+
 
 
 

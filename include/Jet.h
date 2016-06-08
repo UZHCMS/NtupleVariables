@@ -80,19 +80,6 @@ namespace UZH {
     floatingnumber* m_cemf;
     floatingnumber* m_csv;
     int* m_charge;
-    int* m_subjet_pruned_N;
-    std::vector<floatingnumber>* m_subjet_pruned_pt;
-    std::vector<floatingnumber>* m_subjet_pruned_eta;
-    std::vector<floatingnumber>* m_subjet_pruned_phi;
-    std::vector<floatingnumber>* m_subjet_pruned_e;
-    std::vector<floatingnumber>* m_subjet_pruned_m;
-    std::vector<floatingnumber>* m_subjet_pruned_csv;
-    std::vector<int>* m_subjet_pruned_charge;
-    std::vector<int>* m_subjet_pruned_partonFlavour;
-    std::vector<int>* m_subjet_pruned_hadronFlavour;
-    std::vector<int>* m_subjet_pruned_genParton_pdgID;
-    std::vector<int>* m_subjet_pruned_nbHadrons;
-    std::vector<int>* m_subjet_pruned_ncHadrons;
     int* m_subjet_softdrop_N;
     std::vector<floatingnumber>* m_subjet_softdrop_pt;
     std::vector<floatingnumber>* m_subjet_softdrop_eta;
@@ -162,19 +149,6 @@ namespace UZH {
     floatingnumber cemf() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::kcemf)) std::cout<<"cemf not connected!"<<std::endl;*/ return *(m_cemf); } 
     floatingnumber csv() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::kcsv)) std::cout<<"csv not connected!"<<std::endl;*/ return *(m_csv); } 
     int charge() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::kcharge)) std::cout<<"charge not connected!"<<std::endl;*/ return *(m_charge); } 
-    int subjet_pruned_N() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_N)) std::cout<<"subjet_pruned_N not connected!"<<std::endl;*/ return *(m_subjet_pruned_N); } 
-    std::vector<floatingnumber> subjet_pruned_pt() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_pt)) std::cout<<"subjet_pruned_pt not connected!"<<std::endl;*/ return *(m_subjet_pruned_pt); } 
-    std::vector<floatingnumber> subjet_pruned_eta() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_eta)) std::cout<<"subjet_pruned_eta not connected!"<<std::endl;*/ return *(m_subjet_pruned_eta); } 
-    std::vector<floatingnumber> subjet_pruned_phi() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_phi)) std::cout<<"subjet_pruned_phi not connected!"<<std::endl;*/ return *(m_subjet_pruned_phi); } 
-    std::vector<floatingnumber> subjet_pruned_e() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_e)) std::cout<<"subjet_pruned_e not connected!"<<std::endl;*/ return *(m_subjet_pruned_e); } 
-    std::vector<floatingnumber> subjet_pruned_m() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_m)) std::cout<<"subjet_pruned_m not connected!"<<std::endl;*/ return *(m_subjet_pruned_m); } 
-    std::vector<floatingnumber> subjet_pruned_csv() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_csv)) std::cout<<"subjet_pruned_csv not connected!"<<std::endl;*/ return *(m_subjet_pruned_csv); } 
-    std::vector<int> subjet_pruned_charge() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_charge)) std::cout<<"subjet_pruned_charge not connected!"<<std::endl;*/ return *(m_subjet_pruned_charge); } 
-    std::vector<int> subjet_pruned_partonFlavour() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_partonFlavour)) std::cout<<"subjet_pruned_partonFlavour not connected!"<<std::endl;*/ return *(m_subjet_pruned_partonFlavour); } 
-    std::vector<int> subjet_pruned_hadronFlavour() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_hadronFlavour)) std::cout<<"subjet_pruned_hadronFlavour not connected!"<<std::endl;*/ return *(m_subjet_pruned_hadronFlavour); } 
-    std::vector<int> subjet_pruned_genParton_pdgID() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_genParton_pdgID)) std::cout<<"subjet_pruned_genParton_pdgID not connected!"<<std::endl;*/ return *(m_subjet_pruned_genParton_pdgID); } 
-    std::vector<int> subjet_pruned_nbHadrons() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_nbHadrons)) std::cout<<"subjet_pruned_nbHadrons not connected!"<<std::endl;*/ return *(m_subjet_pruned_nbHadrons); } 
-    std::vector<int> subjet_pruned_ncHadrons() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_pruned_ncHadrons)) std::cout<<"subjet_pruned_ncHadrons not connected!"<<std::endl;*/ return *(m_subjet_pruned_ncHadrons); } 
     int subjet_softdrop_N() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_softdrop_N)) std::cout<<"subjet_softdrop_N not connected!"<<std::endl;*/ return *(m_subjet_softdrop_N); } 
     std::vector<floatingnumber> subjet_softdrop_pt() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_softdrop_pt)) std::cout<<"subjet_softdrop_pt not connected!"<<std::endl;*/ return *(m_subjet_softdrop_pt); } 
     std::vector<floatingnumber> subjet_softdrop_eta() const { /*if(!m_ana->getConnectSucceeded(Ntuple::JetNtupleObject::ksubjet_softdrop_eta)) std::cout<<"subjet_softdrop_eta not connected!"<<std::endl;*/ return *(m_subjet_softdrop_eta); } 
@@ -231,19 +205,6 @@ namespace UZH {
     void cemf( const floatingnumber& val){ *(m_cemf)=val; } 
     void csv( const floatingnumber& val){ *(m_csv)=val; } 
     void charge( const int& val){ *(m_charge)=val; } 
-    void subjet_pruned_N( const int& val){ *(m_subjet_pruned_N)=val; } 
-    void subjet_pruned_pt( const std::vector<floatingnumber>& val){ *(m_subjet_pruned_pt)=val; } 
-    void subjet_pruned_eta( const std::vector<floatingnumber>& val){ *(m_subjet_pruned_eta)=val; } 
-    void subjet_pruned_phi( const std::vector<floatingnumber>& val){ *(m_subjet_pruned_phi)=val; } 
-    void subjet_pruned_e( const std::vector<floatingnumber>& val){ *(m_subjet_pruned_e)=val; } 
-    void subjet_pruned_m( const std::vector<floatingnumber>& val){ *(m_subjet_pruned_m)=val; } 
-    void subjet_pruned_csv( const std::vector<floatingnumber>& val){ *(m_subjet_pruned_csv)=val; } 
-    void subjet_pruned_charge( const std::vector<int>& val){ *(m_subjet_pruned_charge)=val; } 
-    void subjet_pruned_partonFlavour( const std::vector<int>& val){ *(m_subjet_pruned_partonFlavour)=val; } 
-    void subjet_pruned_hadronFlavour( const std::vector<int>& val){ *(m_subjet_pruned_hadronFlavour)=val; } 
-    void subjet_pruned_genParton_pdgID( const std::vector<int>& val){ *(m_subjet_pruned_genParton_pdgID)=val; } 
-    void subjet_pruned_nbHadrons( const std::vector<int>& val){ *(m_subjet_pruned_nbHadrons)=val; } 
-    void subjet_pruned_ncHadrons( const std::vector<int>& val){ *(m_subjet_pruned_ncHadrons)=val; } 
     void subjet_softdrop_N( const int& val){ *(m_subjet_softdrop_N)=val; } 
     void subjet_softdrop_pt( const std::vector<floatingnumber>& val){ *(m_subjet_softdrop_pt)=val; } 
     void subjet_softdrop_eta( const std::vector<floatingnumber>& val){ *(m_subjet_softdrop_eta)=val; } 

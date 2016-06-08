@@ -60,31 +60,63 @@ namespace UZH {
     floatingnumber* m_chargedIsoPtSum;
     floatingnumber* m_neutralIsoPtSum;
     floatingnumber* m_puCorrPtSum;
-    floatingnumber* m_byIsolationMVA3oldDMwLTraw;
-    floatingnumber* m_byVLooseIsolationMVA3oldDMwLT;
-    floatingnumber* m_byLooseIsolationMVA3oldDMwLT;
-    floatingnumber* m_byMediumIsolationMVA3oldDMwLT;
-    floatingnumber* m_byTightIsolationMVA3oldDMwLT;
-    floatingnumber* m_byVTightIsolationMVA3oldDMwLT;
-    floatingnumber* m_byIsolationMVA3newDMwLTraw;
-    floatingnumber* m_byVLooseIsolationMVA3newDMwLT;
-    floatingnumber* m_byLooseIsolationMVA3newDMwLT;
-    floatingnumber* m_byMediumIsolationMVA3newDMwLT;
-    floatingnumber* m_byTightIsolationMVA3newDMwLT;
-    floatingnumber* m_byVTightIsolationMVA3newDMwLT;
-    floatingnumber* m_againstElectronMVA5raw;
-    floatingnumber* m_againstElectronMVA5category;
-    floatingnumber* m_againstElectronVLooseMVA5;
-    floatingnumber* m_againstElectronLooseMVA5;
-    floatingnumber* m_againstElectronMediumMVA5;
-    floatingnumber* m_againstElectronTightMVA5;
-    floatingnumber* m_againstElectronVTightMVA5;
+    floatingnumber* m_chargedIsoPtSumdR03;
+    floatingnumber* m_footprintCorrectiondR03;
+    floatingnumber* m_neutralIsoPtSumdR03;
+    floatingnumber* m_neutralIsoPtSumWeight;
+    floatingnumber* m_neutralIsoPtSumWeightdR03;
+    floatingnumber* m_photonPtSumOutsideSignalConedR03;
+    floatingnumber* m_byIsolationMVArun2v1DBdR03oldDMwLTraw;
+    floatingnumber* m_byIsolationMVArun2v1DBnewDMwLTraw;
+    floatingnumber* m_byIsolationMVArun2v1DBoldDMwLTraw;
+    floatingnumber* m_byIsolationMVArun2v1PWdR03oldDMwLTraw;
+    floatingnumber* m_byIsolationMVArun2v1PWnewDMwLTraw;
+    floatingnumber* m_byIsolationMVArun2v1PWoldDMwLTraw;
+    floatingnumber* m_byLooseIsolationMVArun2v1DBdR03oldDMwLT;
+    floatingnumber* m_byLooseIsolationMVArun2v1DBnewDMwLT;
+    floatingnumber* m_byLooseIsolationMVArun2v1DBoldDMwLT;
+    floatingnumber* m_byLooseIsolationMVArun2v1PWdR03oldDMwLT;
+    floatingnumber* m_byLooseIsolationMVArun2v1PWnewDMwLT;
+    floatingnumber* m_byLooseIsolationMVArun2v1PWoldDMwLT;
+    floatingnumber* m_byMediumIsolationMVArun2v1DBdR03oldDMwLT;
+    floatingnumber* m_byMediumIsolationMVArun2v1DBnewDMwLT;
+    floatingnumber* m_byMediumIsolationMVArun2v1DBoldDMwLT;
+    floatingnumber* m_byMediumIsolationMVArun2v1PWdR03oldDMwLT;
+    floatingnumber* m_byMediumIsolationMVArun2v1PWnewDMwLT;
+    floatingnumber* m_byMediumIsolationMVArun2v1PWoldDMwLT;
+    floatingnumber* m_byTightIsolationMVArun2v1DBdR03oldDMwLT;
+    floatingnumber* m_byTightIsolationMVArun2v1DBnewDMwLT;
+    floatingnumber* m_byTightIsolationMVArun2v1DBoldDMwLT;
+    floatingnumber* m_byTightIsolationMVArun2v1PWdR03oldDMwLT;
+    floatingnumber* m_byTightIsolationMVArun2v1PWnewDMwLT;
+    floatingnumber* m_byTightIsolationMVArun2v1PWoldDMwLT;
+    floatingnumber* m_byVLooseIsolationMVArun2v1DBdR03oldDMwLT;
+    floatingnumber* m_byVLooseIsolationMVArun2v1DBnewDMwLT;
+    floatingnumber* m_byVLooseIsolationMVArun2v1DBoldDMwLT;
+    floatingnumber* m_byVLooseIsolationMVArun2v1PWdR03oldDMwLT;
+    floatingnumber* m_byVLooseIsolationMVArun2v1PWnewDMwLT;
+    floatingnumber* m_byVLooseIsolationMVArun2v1PWoldDMwLT;
+    floatingnumber* m_byVTightIsolationMVArun2v1DBdR03oldDMwLT;
+    floatingnumber* m_byVTightIsolationMVArun2v1DBnewDMwLT;
+    floatingnumber* m_byVTightIsolationMVArun2v1DBoldDMwLT;
+    floatingnumber* m_byVTightIsolationMVArun2v1PWdR03oldDMwLT;
+    floatingnumber* m_byVTightIsolationMVArun2v1PWnewDMwLT;
+    floatingnumber* m_byVTightIsolationMVArun2v1PWoldDMwLT;
+    floatingnumber* m_byVVTightIsolationMVArun2v1DBdR03oldDMwLT;
+    floatingnumber* m_byVVTightIsolationMVArun2v1DBnewDMwLT;
+    floatingnumber* m_byVVTightIsolationMVArun2v1DBoldDMwLT;
+    floatingnumber* m_byVVTightIsolationMVArun2v1PWdR03oldDMwLT;
+    floatingnumber* m_byVVTightIsolationMVArun2v1PWnewDMwLT;
+    floatingnumber* m_byVVTightIsolationMVArun2v1PWoldDMwLT;
+    floatingnumber* m_againstElectronMVA6raw;
+    floatingnumber* m_againstElectronMVA6category;
+    floatingnumber* m_againstElectronVLooseMVA6;
+    floatingnumber* m_againstElectronLooseMVA6;
+    floatingnumber* m_againstElectronMediumMVA6;
+    floatingnumber* m_againstElectronTightMVA6;
+    floatingnumber* m_againstElectronVTightMVA6;
     floatingnumber* m_againstMuonLoose3;
     floatingnumber* m_againstMuonTight3;
-    floatingnumber* m_byPileupWeightedIsolationRaw3Hits;
-    floatingnumber* m_byLoosePileupWeightedIsolation3Hits;
-    floatingnumber* m_byMediumPileupWeightedIsolation3Hits;
-    floatingnumber* m_byTightPileupWeightedIsolation3Hits;
     floatingnumber* m_byPhotonPtSumOutsideSignalCone;
     floatingnumber* m_footprintCorrection;
     int* m_pdgId;
@@ -108,31 +140,63 @@ namespace UZH {
     floatingnumber chargedIsoPtSum() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kchargedIsoPtSum)) std::cout<<"chargedIsoPtSum not connected!"<<std::endl;*/ return *(m_chargedIsoPtSum); } 
     floatingnumber neutralIsoPtSum() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kneutralIsoPtSum)) std::cout<<"neutralIsoPtSum not connected!"<<std::endl;*/ return *(m_neutralIsoPtSum); } 
     floatingnumber puCorrPtSum() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kpuCorrPtSum)) std::cout<<"puCorrPtSum not connected!"<<std::endl;*/ return *(m_puCorrPtSum); } 
-    floatingnumber byIsolationMVA3oldDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVA3oldDMwLTraw)) std::cout<<"byIsolationMVA3oldDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVA3oldDMwLTraw); } 
-    floatingnumber byVLooseIsolationMVA3oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVA3oldDMwLT)) std::cout<<"byVLooseIsolationMVA3oldDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVA3oldDMwLT); } 
-    floatingnumber byLooseIsolationMVA3oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVA3oldDMwLT)) std::cout<<"byLooseIsolationMVA3oldDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVA3oldDMwLT); } 
-    floatingnumber byMediumIsolationMVA3oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVA3oldDMwLT)) std::cout<<"byMediumIsolationMVA3oldDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVA3oldDMwLT); } 
-    floatingnumber byTightIsolationMVA3oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVA3oldDMwLT)) std::cout<<"byTightIsolationMVA3oldDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVA3oldDMwLT); } 
-    floatingnumber byVTightIsolationMVA3oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVA3oldDMwLT)) std::cout<<"byVTightIsolationMVA3oldDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVA3oldDMwLT); } 
-    floatingnumber byIsolationMVA3newDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVA3newDMwLTraw)) std::cout<<"byIsolationMVA3newDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVA3newDMwLTraw); } 
-    floatingnumber byVLooseIsolationMVA3newDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVA3newDMwLT)) std::cout<<"byVLooseIsolationMVA3newDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVA3newDMwLT); } 
-    floatingnumber byLooseIsolationMVA3newDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVA3newDMwLT)) std::cout<<"byLooseIsolationMVA3newDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVA3newDMwLT); } 
-    floatingnumber byMediumIsolationMVA3newDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVA3newDMwLT)) std::cout<<"byMediumIsolationMVA3newDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVA3newDMwLT); } 
-    floatingnumber byTightIsolationMVA3newDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVA3newDMwLT)) std::cout<<"byTightIsolationMVA3newDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVA3newDMwLT); } 
-    floatingnumber byVTightIsolationMVA3newDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVA3newDMwLT)) std::cout<<"byVTightIsolationMVA3newDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVA3newDMwLT); } 
-    floatingnumber againstElectronMVA5raw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronMVA5raw)) std::cout<<"againstElectronMVA5raw not connected!"<<std::endl;*/ return *(m_againstElectronMVA5raw); } 
-    floatingnumber againstElectronMVA5category() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronMVA5category)) std::cout<<"againstElectronMVA5category not connected!"<<std::endl;*/ return *(m_againstElectronMVA5category); } 
-    floatingnumber againstElectronVLooseMVA5() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronVLooseMVA5)) std::cout<<"againstElectronVLooseMVA5 not connected!"<<std::endl;*/ return *(m_againstElectronVLooseMVA5); } 
-    floatingnumber againstElectronLooseMVA5() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronLooseMVA5)) std::cout<<"againstElectronLooseMVA5 not connected!"<<std::endl;*/ return *(m_againstElectronLooseMVA5); } 
-    floatingnumber againstElectronMediumMVA5() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronMediumMVA5)) std::cout<<"againstElectronMediumMVA5 not connected!"<<std::endl;*/ return *(m_againstElectronMediumMVA5); } 
-    floatingnumber againstElectronTightMVA5() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronTightMVA5)) std::cout<<"againstElectronTightMVA5 not connected!"<<std::endl;*/ return *(m_againstElectronTightMVA5); } 
-    floatingnumber againstElectronVTightMVA5() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronVTightMVA5)) std::cout<<"againstElectronVTightMVA5 not connected!"<<std::endl;*/ return *(m_againstElectronVTightMVA5); } 
+    floatingnumber chargedIsoPtSumdR03() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kchargedIsoPtSumdR03)) std::cout<<"chargedIsoPtSumdR03 not connected!"<<std::endl;*/ return *(m_chargedIsoPtSumdR03); } 
+    floatingnumber footprintCorrectiondR03() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kfootprintCorrectiondR03)) std::cout<<"footprintCorrectiondR03 not connected!"<<std::endl;*/ return *(m_footprintCorrectiondR03); } 
+    floatingnumber neutralIsoPtSumdR03() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kneutralIsoPtSumdR03)) std::cout<<"neutralIsoPtSumdR03 not connected!"<<std::endl;*/ return *(m_neutralIsoPtSumdR03); } 
+    floatingnumber neutralIsoPtSumWeight() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kneutralIsoPtSumWeight)) std::cout<<"neutralIsoPtSumWeight not connected!"<<std::endl;*/ return *(m_neutralIsoPtSumWeight); } 
+    floatingnumber neutralIsoPtSumWeightdR03() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kneutralIsoPtSumWeightdR03)) std::cout<<"neutralIsoPtSumWeightdR03 not connected!"<<std::endl;*/ return *(m_neutralIsoPtSumWeightdR03); } 
+    floatingnumber photonPtSumOutsideSignalConedR03() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kphotonPtSumOutsideSignalConedR03)) std::cout<<"photonPtSumOutsideSignalConedR03 not connected!"<<std::endl;*/ return *(m_photonPtSumOutsideSignalConedR03); } 
+    floatingnumber byIsolationMVArun2v1DBdR03oldDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVArun2v1DBdR03oldDMwLTraw)) std::cout<<"byIsolationMVArun2v1DBdR03oldDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVArun2v1DBdR03oldDMwLTraw); } 
+    floatingnumber byIsolationMVArun2v1DBnewDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVArun2v1DBnewDMwLTraw)) std::cout<<"byIsolationMVArun2v1DBnewDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVArun2v1DBnewDMwLTraw); } 
+    floatingnumber byIsolationMVArun2v1DBoldDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVArun2v1DBoldDMwLTraw)) std::cout<<"byIsolationMVArun2v1DBoldDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVArun2v1DBoldDMwLTraw); } 
+    floatingnumber byIsolationMVArun2v1PWdR03oldDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVArun2v1PWdR03oldDMwLTraw)) std::cout<<"byIsolationMVArun2v1PWdR03oldDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVArun2v1PWdR03oldDMwLTraw); } 
+    floatingnumber byIsolationMVArun2v1PWnewDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVArun2v1PWnewDMwLTraw)) std::cout<<"byIsolationMVArun2v1PWnewDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVArun2v1PWnewDMwLTraw); } 
+    floatingnumber byIsolationMVArun2v1PWoldDMwLTraw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyIsolationMVArun2v1PWoldDMwLTraw)) std::cout<<"byIsolationMVArun2v1PWoldDMwLTraw not connected!"<<std::endl;*/ return *(m_byIsolationMVArun2v1PWoldDMwLTraw); } 
+    floatingnumber byLooseIsolationMVArun2v1DBdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVArun2v1DBdR03oldDMwLT)) std::cout<<"byLooseIsolationMVArun2v1DBdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVArun2v1DBdR03oldDMwLT); } 
+    floatingnumber byLooseIsolationMVArun2v1DBnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVArun2v1DBnewDMwLT)) std::cout<<"byLooseIsolationMVArun2v1DBnewDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVArun2v1DBnewDMwLT); } 
+    floatingnumber byLooseIsolationMVArun2v1DBoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVArun2v1DBoldDMwLT)) std::cout<<"byLooseIsolationMVArun2v1DBoldDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVArun2v1DBoldDMwLT); } 
+    floatingnumber byLooseIsolationMVArun2v1PWdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVArun2v1PWdR03oldDMwLT)) std::cout<<"byLooseIsolationMVArun2v1PWdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVArun2v1PWdR03oldDMwLT); } 
+    floatingnumber byLooseIsolationMVArun2v1PWnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVArun2v1PWnewDMwLT)) std::cout<<"byLooseIsolationMVArun2v1PWnewDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVArun2v1PWnewDMwLT); } 
+    floatingnumber byLooseIsolationMVArun2v1PWoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLooseIsolationMVArun2v1PWoldDMwLT)) std::cout<<"byLooseIsolationMVArun2v1PWoldDMwLT not connected!"<<std::endl;*/ return *(m_byLooseIsolationMVArun2v1PWoldDMwLT); } 
+    floatingnumber byMediumIsolationMVArun2v1DBdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVArun2v1DBdR03oldDMwLT)) std::cout<<"byMediumIsolationMVArun2v1DBdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVArun2v1DBdR03oldDMwLT); } 
+    floatingnumber byMediumIsolationMVArun2v1DBnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVArun2v1DBnewDMwLT)) std::cout<<"byMediumIsolationMVArun2v1DBnewDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVArun2v1DBnewDMwLT); } 
+    floatingnumber byMediumIsolationMVArun2v1DBoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVArun2v1DBoldDMwLT)) std::cout<<"byMediumIsolationMVArun2v1DBoldDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVArun2v1DBoldDMwLT); } 
+    floatingnumber byMediumIsolationMVArun2v1PWdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVArun2v1PWdR03oldDMwLT)) std::cout<<"byMediumIsolationMVArun2v1PWdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVArun2v1PWdR03oldDMwLT); } 
+    floatingnumber byMediumIsolationMVArun2v1PWnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVArun2v1PWnewDMwLT)) std::cout<<"byMediumIsolationMVArun2v1PWnewDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVArun2v1PWnewDMwLT); } 
+    floatingnumber byMediumIsolationMVArun2v1PWoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumIsolationMVArun2v1PWoldDMwLT)) std::cout<<"byMediumIsolationMVArun2v1PWoldDMwLT not connected!"<<std::endl;*/ return *(m_byMediumIsolationMVArun2v1PWoldDMwLT); } 
+    floatingnumber byTightIsolationMVArun2v1DBdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVArun2v1DBdR03oldDMwLT)) std::cout<<"byTightIsolationMVArun2v1DBdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVArun2v1DBdR03oldDMwLT); } 
+    floatingnumber byTightIsolationMVArun2v1DBnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVArun2v1DBnewDMwLT)) std::cout<<"byTightIsolationMVArun2v1DBnewDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVArun2v1DBnewDMwLT); } 
+    floatingnumber byTightIsolationMVArun2v1DBoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVArun2v1DBoldDMwLT)) std::cout<<"byTightIsolationMVArun2v1DBoldDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVArun2v1DBoldDMwLT); } 
+    floatingnumber byTightIsolationMVArun2v1PWdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVArun2v1PWdR03oldDMwLT)) std::cout<<"byTightIsolationMVArun2v1PWdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVArun2v1PWdR03oldDMwLT); } 
+    floatingnumber byTightIsolationMVArun2v1PWnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVArun2v1PWnewDMwLT)) std::cout<<"byTightIsolationMVArun2v1PWnewDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVArun2v1PWnewDMwLT); } 
+    floatingnumber byTightIsolationMVArun2v1PWoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightIsolationMVArun2v1PWoldDMwLT)) std::cout<<"byTightIsolationMVArun2v1PWoldDMwLT not connected!"<<std::endl;*/ return *(m_byTightIsolationMVArun2v1PWoldDMwLT); } 
+    floatingnumber byVLooseIsolationMVArun2v1DBdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVArun2v1DBdR03oldDMwLT)) std::cout<<"byVLooseIsolationMVArun2v1DBdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVArun2v1DBdR03oldDMwLT); } 
+    floatingnumber byVLooseIsolationMVArun2v1DBnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVArun2v1DBnewDMwLT)) std::cout<<"byVLooseIsolationMVArun2v1DBnewDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVArun2v1DBnewDMwLT); } 
+    floatingnumber byVLooseIsolationMVArun2v1DBoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVArun2v1DBoldDMwLT)) std::cout<<"byVLooseIsolationMVArun2v1DBoldDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVArun2v1DBoldDMwLT); } 
+    floatingnumber byVLooseIsolationMVArun2v1PWdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVArun2v1PWdR03oldDMwLT)) std::cout<<"byVLooseIsolationMVArun2v1PWdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVArun2v1PWdR03oldDMwLT); } 
+    floatingnumber byVLooseIsolationMVArun2v1PWnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVArun2v1PWnewDMwLT)) std::cout<<"byVLooseIsolationMVArun2v1PWnewDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVArun2v1PWnewDMwLT); } 
+    floatingnumber byVLooseIsolationMVArun2v1PWoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVLooseIsolationMVArun2v1PWoldDMwLT)) std::cout<<"byVLooseIsolationMVArun2v1PWoldDMwLT not connected!"<<std::endl;*/ return *(m_byVLooseIsolationMVArun2v1PWoldDMwLT); } 
+    floatingnumber byVTightIsolationMVArun2v1DBdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVArun2v1DBdR03oldDMwLT)) std::cout<<"byVTightIsolationMVArun2v1DBdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVArun2v1DBdR03oldDMwLT); } 
+    floatingnumber byVTightIsolationMVArun2v1DBnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVArun2v1DBnewDMwLT)) std::cout<<"byVTightIsolationMVArun2v1DBnewDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVArun2v1DBnewDMwLT); } 
+    floatingnumber byVTightIsolationMVArun2v1DBoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVArun2v1DBoldDMwLT)) std::cout<<"byVTightIsolationMVArun2v1DBoldDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVArun2v1DBoldDMwLT); } 
+    floatingnumber byVTightIsolationMVArun2v1PWdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVArun2v1PWdR03oldDMwLT)) std::cout<<"byVTightIsolationMVArun2v1PWdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVArun2v1PWdR03oldDMwLT); } 
+    floatingnumber byVTightIsolationMVArun2v1PWnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVArun2v1PWnewDMwLT)) std::cout<<"byVTightIsolationMVArun2v1PWnewDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVArun2v1PWnewDMwLT); } 
+    floatingnumber byVTightIsolationMVArun2v1PWoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVTightIsolationMVArun2v1PWoldDMwLT)) std::cout<<"byVTightIsolationMVArun2v1PWoldDMwLT not connected!"<<std::endl;*/ return *(m_byVTightIsolationMVArun2v1PWoldDMwLT); } 
+    floatingnumber byVVTightIsolationMVArun2v1DBdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVVTightIsolationMVArun2v1DBdR03oldDMwLT)) std::cout<<"byVVTightIsolationMVArun2v1DBdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byVVTightIsolationMVArun2v1DBdR03oldDMwLT); } 
+    floatingnumber byVVTightIsolationMVArun2v1DBnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVVTightIsolationMVArun2v1DBnewDMwLT)) std::cout<<"byVVTightIsolationMVArun2v1DBnewDMwLT not connected!"<<std::endl;*/ return *(m_byVVTightIsolationMVArun2v1DBnewDMwLT); } 
+    floatingnumber byVVTightIsolationMVArun2v1DBoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVVTightIsolationMVArun2v1DBoldDMwLT)) std::cout<<"byVVTightIsolationMVArun2v1DBoldDMwLT not connected!"<<std::endl;*/ return *(m_byVVTightIsolationMVArun2v1DBoldDMwLT); } 
+    floatingnumber byVVTightIsolationMVArun2v1PWdR03oldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVVTightIsolationMVArun2v1PWdR03oldDMwLT)) std::cout<<"byVVTightIsolationMVArun2v1PWdR03oldDMwLT not connected!"<<std::endl;*/ return *(m_byVVTightIsolationMVArun2v1PWdR03oldDMwLT); } 
+    floatingnumber byVVTightIsolationMVArun2v1PWnewDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVVTightIsolationMVArun2v1PWnewDMwLT)) std::cout<<"byVVTightIsolationMVArun2v1PWnewDMwLT not connected!"<<std::endl;*/ return *(m_byVVTightIsolationMVArun2v1PWnewDMwLT); } 
+    floatingnumber byVVTightIsolationMVArun2v1PWoldDMwLT() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyVVTightIsolationMVArun2v1PWoldDMwLT)) std::cout<<"byVVTightIsolationMVArun2v1PWoldDMwLT not connected!"<<std::endl;*/ return *(m_byVVTightIsolationMVArun2v1PWoldDMwLT); } 
+    floatingnumber againstElectronMVA6raw() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronMVA6raw)) std::cout<<"againstElectronMVA6raw not connected!"<<std::endl;*/ return *(m_againstElectronMVA6raw); } 
+    floatingnumber againstElectronMVA6category() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronMVA6category)) std::cout<<"againstElectronMVA6category not connected!"<<std::endl;*/ return *(m_againstElectronMVA6category); } 
+    floatingnumber againstElectronVLooseMVA6() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronVLooseMVA6)) std::cout<<"againstElectronVLooseMVA6 not connected!"<<std::endl;*/ return *(m_againstElectronVLooseMVA6); } 
+    floatingnumber againstElectronLooseMVA6() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronLooseMVA6)) std::cout<<"againstElectronLooseMVA6 not connected!"<<std::endl;*/ return *(m_againstElectronLooseMVA6); } 
+    floatingnumber againstElectronMediumMVA6() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronMediumMVA6)) std::cout<<"againstElectronMediumMVA6 not connected!"<<std::endl;*/ return *(m_againstElectronMediumMVA6); } 
+    floatingnumber againstElectronTightMVA6() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronTightMVA6)) std::cout<<"againstElectronTightMVA6 not connected!"<<std::endl;*/ return *(m_againstElectronTightMVA6); } 
+    floatingnumber againstElectronVTightMVA6() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstElectronVTightMVA6)) std::cout<<"againstElectronVTightMVA6 not connected!"<<std::endl;*/ return *(m_againstElectronVTightMVA6); } 
     floatingnumber againstMuonLoose3() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstMuonLoose3)) std::cout<<"againstMuonLoose3 not connected!"<<std::endl;*/ return *(m_againstMuonLoose3); } 
     floatingnumber againstMuonTight3() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kagainstMuonTight3)) std::cout<<"againstMuonTight3 not connected!"<<std::endl;*/ return *(m_againstMuonTight3); } 
-    floatingnumber byPileupWeightedIsolationRaw3Hits() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyPileupWeightedIsolationRaw3Hits)) std::cout<<"byPileupWeightedIsolationRaw3Hits not connected!"<<std::endl;*/ return *(m_byPileupWeightedIsolationRaw3Hits); } 
-    floatingnumber byLoosePileupWeightedIsolation3Hits() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyLoosePileupWeightedIsolation3Hits)) std::cout<<"byLoosePileupWeightedIsolation3Hits not connected!"<<std::endl;*/ return *(m_byLoosePileupWeightedIsolation3Hits); } 
-    floatingnumber byMediumPileupWeightedIsolation3Hits() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyMediumPileupWeightedIsolation3Hits)) std::cout<<"byMediumPileupWeightedIsolation3Hits not connected!"<<std::endl;*/ return *(m_byMediumPileupWeightedIsolation3Hits); } 
-    floatingnumber byTightPileupWeightedIsolation3Hits() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyTightPileupWeightedIsolation3Hits)) std::cout<<"byTightPileupWeightedIsolation3Hits not connected!"<<std::endl;*/ return *(m_byTightPileupWeightedIsolation3Hits); } 
     floatingnumber byPhotonPtSumOutsideSignalCone() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kbyPhotonPtSumOutsideSignalCone)) std::cout<<"byPhotonPtSumOutsideSignalCone not connected!"<<std::endl;*/ return *(m_byPhotonPtSumOutsideSignalCone); } 
     floatingnumber footprintCorrection() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kfootprintCorrection)) std::cout<<"footprintCorrection not connected!"<<std::endl;*/ return *(m_footprintCorrection); } 
     int pdgId() const { /*if(!m_ana->getConnectSucceeded(Ntuple::TauNtupleObject::kpdgId)) std::cout<<"pdgId not connected!"<<std::endl;*/ return *(m_pdgId); } 
@@ -149,31 +213,63 @@ namespace UZH {
     void chargedIsoPtSum( const floatingnumber& val){ *(m_chargedIsoPtSum)=val; } 
     void neutralIsoPtSum( const floatingnumber& val){ *(m_neutralIsoPtSum)=val; } 
     void puCorrPtSum( const floatingnumber& val){ *(m_puCorrPtSum)=val; } 
-    void byIsolationMVA3oldDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVA3oldDMwLTraw)=val; } 
-    void byVLooseIsolationMVA3oldDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVA3oldDMwLT)=val; } 
-    void byLooseIsolationMVA3oldDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVA3oldDMwLT)=val; } 
-    void byMediumIsolationMVA3oldDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVA3oldDMwLT)=val; } 
-    void byTightIsolationMVA3oldDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVA3oldDMwLT)=val; } 
-    void byVTightIsolationMVA3oldDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVA3oldDMwLT)=val; } 
-    void byIsolationMVA3newDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVA3newDMwLTraw)=val; } 
-    void byVLooseIsolationMVA3newDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVA3newDMwLT)=val; } 
-    void byLooseIsolationMVA3newDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVA3newDMwLT)=val; } 
-    void byMediumIsolationMVA3newDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVA3newDMwLT)=val; } 
-    void byTightIsolationMVA3newDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVA3newDMwLT)=val; } 
-    void byVTightIsolationMVA3newDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVA3newDMwLT)=val; } 
-    void againstElectronMVA5raw( const floatingnumber& val){ *(m_againstElectronMVA5raw)=val; } 
-    void againstElectronMVA5category( const floatingnumber& val){ *(m_againstElectronMVA5category)=val; } 
-    void againstElectronVLooseMVA5( const floatingnumber& val){ *(m_againstElectronVLooseMVA5)=val; } 
-    void againstElectronLooseMVA5( const floatingnumber& val){ *(m_againstElectronLooseMVA5)=val; } 
-    void againstElectronMediumMVA5( const floatingnumber& val){ *(m_againstElectronMediumMVA5)=val; } 
-    void againstElectronTightMVA5( const floatingnumber& val){ *(m_againstElectronTightMVA5)=val; } 
-    void againstElectronVTightMVA5( const floatingnumber& val){ *(m_againstElectronVTightMVA5)=val; } 
+    void chargedIsoPtSumdR03( const floatingnumber& val){ *(m_chargedIsoPtSumdR03)=val; } 
+    void footprintCorrectiondR03( const floatingnumber& val){ *(m_footprintCorrectiondR03)=val; } 
+    void neutralIsoPtSumdR03( const floatingnumber& val){ *(m_neutralIsoPtSumdR03)=val; } 
+    void neutralIsoPtSumWeight( const floatingnumber& val){ *(m_neutralIsoPtSumWeight)=val; } 
+    void neutralIsoPtSumWeightdR03( const floatingnumber& val){ *(m_neutralIsoPtSumWeightdR03)=val; } 
+    void photonPtSumOutsideSignalConedR03( const floatingnumber& val){ *(m_photonPtSumOutsideSignalConedR03)=val; } 
+    void byIsolationMVArun2v1DBdR03oldDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVArun2v1DBdR03oldDMwLTraw)=val; } 
+    void byIsolationMVArun2v1DBnewDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVArun2v1DBnewDMwLTraw)=val; } 
+    void byIsolationMVArun2v1DBoldDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVArun2v1DBoldDMwLTraw)=val; } 
+    void byIsolationMVArun2v1PWdR03oldDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVArun2v1PWdR03oldDMwLTraw)=val; } 
+    void byIsolationMVArun2v1PWnewDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVArun2v1PWnewDMwLTraw)=val; } 
+    void byIsolationMVArun2v1PWoldDMwLTraw( const floatingnumber& val){ *(m_byIsolationMVArun2v1PWoldDMwLTraw)=val; } 
+    void byLooseIsolationMVArun2v1DBdR03oldDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVArun2v1DBdR03oldDMwLT)=val; } 
+    void byLooseIsolationMVArun2v1DBnewDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVArun2v1DBnewDMwLT)=val; } 
+    void byLooseIsolationMVArun2v1DBoldDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVArun2v1DBoldDMwLT)=val; } 
+    void byLooseIsolationMVArun2v1PWdR03oldDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVArun2v1PWdR03oldDMwLT)=val; } 
+    void byLooseIsolationMVArun2v1PWnewDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVArun2v1PWnewDMwLT)=val; } 
+    void byLooseIsolationMVArun2v1PWoldDMwLT( const floatingnumber& val){ *(m_byLooseIsolationMVArun2v1PWoldDMwLT)=val; } 
+    void byMediumIsolationMVArun2v1DBdR03oldDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVArun2v1DBdR03oldDMwLT)=val; } 
+    void byMediumIsolationMVArun2v1DBnewDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVArun2v1DBnewDMwLT)=val; } 
+    void byMediumIsolationMVArun2v1DBoldDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVArun2v1DBoldDMwLT)=val; } 
+    void byMediumIsolationMVArun2v1PWdR03oldDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVArun2v1PWdR03oldDMwLT)=val; } 
+    void byMediumIsolationMVArun2v1PWnewDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVArun2v1PWnewDMwLT)=val; } 
+    void byMediumIsolationMVArun2v1PWoldDMwLT( const floatingnumber& val){ *(m_byMediumIsolationMVArun2v1PWoldDMwLT)=val; } 
+    void byTightIsolationMVArun2v1DBdR03oldDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVArun2v1DBdR03oldDMwLT)=val; } 
+    void byTightIsolationMVArun2v1DBnewDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVArun2v1DBnewDMwLT)=val; } 
+    void byTightIsolationMVArun2v1DBoldDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVArun2v1DBoldDMwLT)=val; } 
+    void byTightIsolationMVArun2v1PWdR03oldDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVArun2v1PWdR03oldDMwLT)=val; } 
+    void byTightIsolationMVArun2v1PWnewDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVArun2v1PWnewDMwLT)=val; } 
+    void byTightIsolationMVArun2v1PWoldDMwLT( const floatingnumber& val){ *(m_byTightIsolationMVArun2v1PWoldDMwLT)=val; } 
+    void byVLooseIsolationMVArun2v1DBdR03oldDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVArun2v1DBdR03oldDMwLT)=val; } 
+    void byVLooseIsolationMVArun2v1DBnewDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVArun2v1DBnewDMwLT)=val; } 
+    void byVLooseIsolationMVArun2v1DBoldDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVArun2v1DBoldDMwLT)=val; } 
+    void byVLooseIsolationMVArun2v1PWdR03oldDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVArun2v1PWdR03oldDMwLT)=val; } 
+    void byVLooseIsolationMVArun2v1PWnewDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVArun2v1PWnewDMwLT)=val; } 
+    void byVLooseIsolationMVArun2v1PWoldDMwLT( const floatingnumber& val){ *(m_byVLooseIsolationMVArun2v1PWoldDMwLT)=val; } 
+    void byVTightIsolationMVArun2v1DBdR03oldDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVArun2v1DBdR03oldDMwLT)=val; } 
+    void byVTightIsolationMVArun2v1DBnewDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVArun2v1DBnewDMwLT)=val; } 
+    void byVTightIsolationMVArun2v1DBoldDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVArun2v1DBoldDMwLT)=val; } 
+    void byVTightIsolationMVArun2v1PWdR03oldDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVArun2v1PWdR03oldDMwLT)=val; } 
+    void byVTightIsolationMVArun2v1PWnewDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVArun2v1PWnewDMwLT)=val; } 
+    void byVTightIsolationMVArun2v1PWoldDMwLT( const floatingnumber& val){ *(m_byVTightIsolationMVArun2v1PWoldDMwLT)=val; } 
+    void byVVTightIsolationMVArun2v1DBdR03oldDMwLT( const floatingnumber& val){ *(m_byVVTightIsolationMVArun2v1DBdR03oldDMwLT)=val; } 
+    void byVVTightIsolationMVArun2v1DBnewDMwLT( const floatingnumber& val){ *(m_byVVTightIsolationMVArun2v1DBnewDMwLT)=val; } 
+    void byVVTightIsolationMVArun2v1DBoldDMwLT( const floatingnumber& val){ *(m_byVVTightIsolationMVArun2v1DBoldDMwLT)=val; } 
+    void byVVTightIsolationMVArun2v1PWdR03oldDMwLT( const floatingnumber& val){ *(m_byVVTightIsolationMVArun2v1PWdR03oldDMwLT)=val; } 
+    void byVVTightIsolationMVArun2v1PWnewDMwLT( const floatingnumber& val){ *(m_byVVTightIsolationMVArun2v1PWnewDMwLT)=val; } 
+    void byVVTightIsolationMVArun2v1PWoldDMwLT( const floatingnumber& val){ *(m_byVVTightIsolationMVArun2v1PWoldDMwLT)=val; } 
+    void againstElectronMVA6raw( const floatingnumber& val){ *(m_againstElectronMVA6raw)=val; } 
+    void againstElectronMVA6category( const floatingnumber& val){ *(m_againstElectronMVA6category)=val; } 
+    void againstElectronVLooseMVA6( const floatingnumber& val){ *(m_againstElectronVLooseMVA6)=val; } 
+    void againstElectronLooseMVA6( const floatingnumber& val){ *(m_againstElectronLooseMVA6)=val; } 
+    void againstElectronMediumMVA6( const floatingnumber& val){ *(m_againstElectronMediumMVA6)=val; } 
+    void againstElectronTightMVA6( const floatingnumber& val){ *(m_againstElectronTightMVA6)=val; } 
+    void againstElectronVTightMVA6( const floatingnumber& val){ *(m_againstElectronVTightMVA6)=val; } 
     void againstMuonLoose3( const floatingnumber& val){ *(m_againstMuonLoose3)=val; } 
     void againstMuonTight3( const floatingnumber& val){ *(m_againstMuonTight3)=val; } 
-    void byPileupWeightedIsolationRaw3Hits( const floatingnumber& val){ *(m_byPileupWeightedIsolationRaw3Hits)=val; } 
-    void byLoosePileupWeightedIsolation3Hits( const floatingnumber& val){ *(m_byLoosePileupWeightedIsolation3Hits)=val; } 
-    void byMediumPileupWeightedIsolation3Hits( const floatingnumber& val){ *(m_byMediumPileupWeightedIsolation3Hits)=val; } 
-    void byTightPileupWeightedIsolation3Hits( const floatingnumber& val){ *(m_byTightPileupWeightedIsolation3Hits)=val; } 
     void byPhotonPtSumOutsideSignalCone( const floatingnumber& val){ *(m_byPhotonPtSumOutsideSignalCone)=val; } 
     void footprintCorrection( const floatingnumber& val){ *(m_footprintCorrection)=val; } 
     void pdgId( const int& val){ *(m_pdgId)=val; } 

@@ -54,20 +54,7 @@ Truth	int*	genParton_pdgID
 Truth	int*	nbHadrons
 Truth	int*	ncHadrons
 
-PrunedSubjets	int*	subjet_pruned_N
-PrunedSubjets	std::vector<floatingnumber>*	subjet_pruned_pt
-PrunedSubjets	std::vector<floatingnumber>*	subjet_pruned_eta
-PrunedSubjets	std::vector<floatingnumber>*	subjet_pruned_phi
-PrunedSubjets	std::vector<floatingnumber>*	subjet_pruned_e
-PrunedSubjets	std::vector<floatingnumber>*	subjet_pruned_m
-PrunedSubjets	std::vector<floatingnumber>*	subjet_pruned_csv
-PrunedSubjets	std::vector<int>*	subjet_pruned_charge
 
-PrunedSubjetsTruth	std::vector<int>*	subjet_pruned_partonFlavour
-PrunedSubjetsTruth	std::vector<int>*	subjet_pruned_hadronFlavour
-PrunedSubjetsTruth	std::vector<int>*	subjet_pruned_genParton_pdgID
-PrunedSubjetsTruth	std::vector<int>*	subjet_pruned_nbHadrons
-PrunedSubjetsTruth	std::vector<int>*	subjet_pruned_ncHadrons
 
 SoftdropSubjets	int*	subjet_softdrop_N
 SoftdropSubjets	std::vector<floatingnumber>*	subjet_softdrop_pt
